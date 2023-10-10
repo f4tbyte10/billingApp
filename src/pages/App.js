@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <div className={"body"}>
-      <div className={"header"}>{"Mi app contable"}</div>
+      <div className={"header"}>{"Facturación"}</div>
       <Alert timeout={5000} show={show} setShow={setShow} />
       <div
         className={"form"}
@@ -51,7 +51,7 @@ const App = () => {
         }}
       >
         <div className={"input-container"}>
-          <label>{"Ruta archivos"}</label>
+          <label>{"Ruta facturas"}</label>
           <input
             type={"text"}
             name={"path"}
